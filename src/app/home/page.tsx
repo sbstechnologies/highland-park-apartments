@@ -23,9 +23,15 @@ const instrumentSerif = Instrument_Serif({
 });
 
 import { Clock, Phone, Mail } from "lucide-react";
-import { Dumbbell, PawPrint, Trees, Waves } from "lucide-react";
 
-import { UsersRound, PackageCheck } from "lucide-react";
+import {
+  Home as HomeIcon,
+  PawPrint,
+  Trees,
+  Utensils,
+  WashingMachine,
+  Waves,
+} from "lucide-react";
 
 import {
   images,
@@ -93,35 +99,12 @@ export default function Home() {
     const iconClass = "h-3 w-3 shrink-0";
 
     if (
-      text.includes("sports") ||
-      text.includes("fitness") ||
-      text.includes("court")
-    ) {
-      return <Dumbbell className={iconClass} />;
-    }
-
-    if (
-      text.includes("clubhouse") ||
-      text.includes("meeting") ||
-      text.includes("community")
-    ) {
-      return <UsersRound className={iconClass} />;
-    }
-
-    if (
       text.includes("pool") ||
       text.includes("swimming") ||
-      text.includes("relaxation")
+      text.includes("sundeck") ||
+      text.includes("outdoor leisure")
     ) {
       return <Waves className={iconClass} />;
-    }
-
-    if (
-      text.includes("recreational") ||
-      text.includes("playground") ||
-      text.includes("outdoor")
-    ) {
-      return <Trees className={iconClass} />;
     }
 
     if (text.includes("pet") || text.includes("bark") || text.includes("dog")) {
@@ -129,11 +112,34 @@ export default function Home() {
     }
 
     if (
-      text.includes("package") ||
-      text.includes("locker") ||
-      text.includes("convenience")
+      text.includes("playground") ||
+      text.includes("play structure") ||
+      text.includes("family") ||
+      text.includes("community")
     ) {
-      return <PackageCheck className={iconClass} />;
+      return <Trees className={iconClass} />;
+    }
+
+    if (
+      text.includes("townhome") ||
+      text.includes("interior living") ||
+      text.includes("open layout") ||
+      text.includes("living")
+    ) {
+      return <HomeIcon className={iconClass} />;
+    }
+
+    if (text.includes("laundry") || text.includes("resident convenience")) {
+      return <WashingMachine className={iconClass} />;
+    }
+
+    if (
+      text.includes("picnic") ||
+      text.includes("bbq") ||
+      text.includes("grill") ||
+      text.includes("outdoor gathering")
+    ) {
+      return <Utensils className={iconClass} />;
     }
 
     return null;
@@ -201,8 +207,8 @@ export default function Home() {
         <Header showTopBar={showTopBar} />
 
         <Image
-          src={images.home1}
-          alt={images.property_alt1}
+          src={images.home5}
+          alt={images.property_alt5}
           fill
           priority
           quality={100}
