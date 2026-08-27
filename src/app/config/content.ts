@@ -150,16 +150,15 @@ export const images = {
   gallery_alt6: "Community playground at Highland Park Apartment Homes",
 
   gallery_alt7:
-    "Open-concept living and kitchen at Highland Park Apartment Homes",
+    "Resident Clubhouse & Leasing Office Hall at Highland Park Apartment Homes",
 
   gallery_alt8:
     "Kitchen with breakfast bar and dishwasher at Highland Park Apartment Homes",
 
-  gallery_alt9:
-    "Living room and private patio walkout at Highland Park Apartment Homes",
+  gallery_alt9: "Kitchen with Full Appliances at Highland Park Apartment Homes",
 
   gallery_alt10:
-    "Primary bedroom with natural lighting at Highland Park Apartment Homes",
+    "Resident Clubhouse & Leasing Office Hall Image #2 at Highland Park Apartment Homes",
 
   gallery_alt11: "Bathroom with modern vanity at Highland Park Apartment Homes",
 
@@ -241,17 +240,19 @@ export const images = {
   // ======================================================
   // BLOG IMAGES
   // ======================================================
-
   blog1: "/images/blog/1.webp",
   blog2: "/images/blog/2.webp",
   blog3: "/images/blog/3.webp",
+  blog4: "/images/blog/4.webp",
+  blog5: "/images/blog/5.webp",
+  blog6: "/images/blog/6.webp",
 
-  blog_alt1:
-    "Local dining and attractions near Highland Park Apartment Homes in Sherman",
-
-  blog_alt2: "Outdoor recreation and parks around Sherman, Texas",
-
-  blog_alt3: "Shopping and dining around Sherman, Texas",
+  blog_alt1: "Must-Try Dining & Local Flavors in Sherman",
+  blog_alt2: "Exploring Fairview Park & Sherman Nature Trails",
+  blog_alt3: "Downtown Sherman Square to Lake Texoma",
+  blog_alt4: "Top Coffee Spots & Work Cafés Around Sherman",
+  blog_alt5: "The Perks of Townhome-Style Living at Highland Park",
+  blog_alt6: "Hagerman Wildlife Refuge & Eisenhower Park",
 };
 
 // ======================================================
@@ -328,18 +329,18 @@ export const tourSlots = [
 
 export const footerLocation = [
   {
-    label: "Sherman, Texas",
-    distance: "Local",
+    label: "Fairview Park ",
+    distance: "1.1 mi",
   },
 
   {
     label: "Downtown Sherman",
-    distance: "Nearby",
+    distance: "2.1 mi",
   },
 
   {
-    label: "Sherman Shopping & Dining",
-    distance: "Nearby",
+    label: "Sherman Town Center ",
+    distance: "2.8 mi",
   },
 ];
 
@@ -362,7 +363,7 @@ export const headerConfig = {
     image_url: "/logo.png",
     title: "Highland Park Apartment Homes",
     alt_title: "Highland Park Apartment Homes Logo",
-    subtitle: "Sherman, TX",
+    subtitle: "SHERMAN, TX . A LIVENJOY COMMUNITY",
   },
 
   navLinks: [
@@ -511,35 +512,25 @@ export const PromoCardWidgetConfig = {
 export const homePageConfig = {
   planFeatures: {
     highlights: [
-      "High Speed Internet Access",
-      "Washer/Dryer Hookup",
-      "Heating & Air Conditioning",
-      "Ceiling Fans",
-      "Smoke Free",
-      "Cable Ready",
-      "Tub/Shower",
-      "Fireplace",
+      "High Speed Internet",
+      "Wood-Style Flooring",
+      "Large Walk-In Closet",
+      "Central Heat & AC",
+      "Private Patio / Balcony",
     ],
 
     kitchen: [
       "Dishwasher",
       "Garbage Disposal",
-      "Pantry",
-      "Oven",
-      "Cooking Range",
-      "Refrigerator",
-      "Freezer",
-      "Dining Room",
-      "Double Pane Windows",
+      "Built-In Microwave & Range",
+      "Ample Cabinet Storage",
     ],
 
     interior: [
-      "Individual Climate Control",
-      "Framed Mirrors",
-      "Controlled Access",
-      "Pet Friendly Community",
-      "Package Locker Service",
-      "Laundry Facilities",
+      "Ceiling Fans",
+      "Double-Pane Windows",
+      "Contemporary Bath Vanity",
+      "Open Living & Dining Concept",
     ],
   },
 
@@ -547,36 +538,36 @@ export const homePageConfig = {
     {
       title: "Sparkling Swimming Pool & Sundeck",
       tag: "OUTDOOR LEISURE",
-      img: images.amenities3,
-      alt: images.amenities_alt3,
-    },
-
-    {
-      title: "Fenced Bark Park & Green Space",
-      tag: "PET FRIENDLY",
-      img: images.amenities5,
-      alt: images.amenities_alt5,
-    },
-
-    {
-      title: "On-Site Playground & Play Structure",
-      tag: "FAMILY & COMMUNITY",
-      img: images.amenities4,
-      alt: images.amenities_alt4,
-    },
-
-    {
-      title: "Townhome-Style Living & Open Layouts",
-      tag: "INTERIOR LIVING",
       img: images.amenities1,
       alt: images.amenities_alt1,
     },
 
     {
-      title: "On-Site Resident Laundry Care Center",
-      tag: "RESIDENT CONVENIENCE",
+      title: "Fenced Bark Park & Green Space",
+      tag: "PET FRIENDLY",
       img: images.amenities2,
       alt: images.amenities_alt2,
+    },
+
+    {
+      title: "On-Site Playground & Play Structure",
+      tag: "FAMILY & COMMUNITY",
+      img: images.amenities3,
+      alt: images.amenities_alt3,
+    },
+
+    {
+      title: "Townhome-Style Living & Open Layouts",
+      tag: "INTERIOR LIVING",
+      img: images.amenities4,
+      alt: images.amenities_alt4,
+    },
+
+    {
+      title: "On-Site Resident Laundry Care Center",
+      tag: "RESIDENT CONVENIENCE",
+      img: images.amenities5,
+      alt: images.amenities_alt5,
     },
 
     {
@@ -773,7 +764,7 @@ export const plans = {
 };
 
 export const interiorPhotos = {
-  "Living Room": images.home19,
+  "Living Room": images.home16,
   Bedroom: images.home13,
   Kitchen: images.home14,
   Bathroom: images.home20,
@@ -781,9 +772,9 @@ export const interiorPhotos = {
 
 export const amenityPhotos = {
   Pool: images.home6,
-  "Package Lockers": images.home4,
+  "Laundry Room": images.home4,
   "Dog Park": images.home7,
-  "Covered Parking": images.home10,
+  Playground: images.home10,
 } as const;
 
 export const defaultPreviewImg = images.home14;
@@ -798,9 +789,9 @@ export type PreviewCategory =
 
 export type AmenityCategory =
   | "Pool"
-  | "Package Lockers"
+  | "Laundry Room"
   | "Dog Park"
-  | "Covered Parking";
+  | "Playground";
 
 // ======================================================
 // FLOOR PLANS
@@ -969,8 +960,8 @@ export const gallery: GalleryItem[] = [
 
   {
     src: images.gallery7,
-    name: "Open-Concept Living & Kitchen",
-    alt: "Open-concept living and kitchen at Highland Park Apartment Homes in Sherman, Texas",
+    name: "Resident Clubhouse & Leasing Office Hall",
+    alt: "Resident Clubhouse & Leasing Office Hall at Highland Park Apartment Homes in Sherman, Texas",
     category: "Interiors",
   },
 
@@ -983,15 +974,15 @@ export const gallery: GalleryItem[] = [
 
   {
     src: images.gallery9,
-    name: "Living Room & Private Patio Walkout",
-    alt: "Living room and private patio walkout at Highland Park Apartment Homes in Sherman, Texas",
+    name: "Kitchen with Full Appliances",
+    alt: "Kitchen with Full Appliances at Highland Park Apartment Homes in Sherman, Texas",
     category: "Interiors",
   },
 
   {
     src: images.gallery10,
-    name: "Primary Bedroom with Natural Lighting",
-    alt: "Primary bedroom with natural lighting at Highland Park Apartment Homes in Sherman, Texas",
+    name: "Resident Clubhouse & Leasing Office Hall Image #2",
+    alt: "Resident Clubhouse & Leasing Office Hall Image #2 at Highland Park Apartment Homes in Sherman, Texas",
     category: "Interiors",
   },
 
@@ -1176,43 +1167,113 @@ export const posts: Post[] = [
       "From Downtown Sherman Square to Lake Texoma, Highland Park Apartment Homes provides a convenient home base for enjoying the surrounding North Texas area.",
     ],
   },
+
+  {
+    category: "Local Life",
+    readTime: "4 min",
+    initials: "HP",
+    author: "Highland Park Apartment Homes Team",
+    date: "Aug 5, 2026",
+
+    title: "Top Coffee Spots & Work Cafés Around Sherman",
+
+    description:
+      "Find inviting coffee shops and work-friendly cafés around Sherman for morning coffee, casual meetings, and productive afternoons.",
+
+    img: images.blog4,
+
+    content: [
+      "Sherman offers convenient coffee shops and cafés where residents can enjoy a morning beverage, meet friends, or spend time working remotely.",
+
+      "Local cafés provide relaxed environments for catching up on emails, reading, studying, or enjoying a quiet afternoon away from home.",
+
+      "With a growing local dining and coffee scene, discovering a new neighborhood café can become part of your weekly routine.",
+
+      "Highland Park Apartment Homes puts residents within convenient reach of Sherman coffee shops, restaurants, and everyday destinations.",
+    ],
+  },
+
+  {
+    category: "Apartment Living",
+    readTime: "5 min",
+    initials: "HP",
+    author: "Highland Park Apartment Homes Team",
+    date: "Aug 1, 2026",
+
+    title: "The Perks of Townhome-Style Living at Highland Park",
+
+    description:
+      "Discover the benefits of spacious townhome-style living, open layouts, private outdoor spaces, and comfortable apartment homes in Sherman.",
+
+    img: images.blog5,
+
+    content: [
+      "Townhome-style living combines the convenience of apartment living with spacious layouts designed to provide a comfortable sense of home.",
+
+      "At Highland Park Apartment Homes, open living spaces and thoughtfully designed floor plans provide room to relax, entertain, and enjoy everyday life.",
+
+      "Private patios and balconies offer additional outdoor space, while updated interiors create a comfortable setting for residents.",
+
+      "For residents looking for space, convenience, and a welcoming community in Sherman, townhome-style living offers an appealing lifestyle.",
+    ],
+  },
+
+  {
+    category: "Outdoors",
+    readTime: "5 min",
+    initials: "HP",
+    author: "Highland Park Apartment Homes Team",
+    date: "Jul 28, 2026",
+
+    title: "Hagerman Wildlife Refuge & Eisenhower Park",
+
+    description:
+      "Explore wildlife, nature trails, outdoor recreation, and scenic destinations around Hagerman National Wildlife Refuge and Eisenhower State Park.",
+
+    img: images.blog6,
+
+    content: [
+      "The area surrounding Sherman provides plenty of opportunities for residents to explore nature, wildlife, and outdoor recreation.",
+
+      "Hagerman National Wildlife Refuge offers opportunities to experience wildlife and natural habitats while enjoying time outdoors.",
+
+      "Eisenhower State Park and the Lake Texoma area provide additional options for hiking, boating, picnicking, and lakeside recreation.",
+
+      "Living at Highland Park Apartment Homes makes it easy to enjoy the natural beauty and recreational destinations available throughout the surrounding North Texas area.",
+    ],
+  },
 ];
 // ======================================================
 // FEATURED BLOG POST
 // ======================================================
 export const featuredPost: Post = {
-  category: "Local Life",
-  readTime: "5 min",
+  category: "Local Eats",
+  readTime: "4 min",
   initials: "HP",
   author: "Highland Park Apartment Homes Team",
   date: "Aug 20, 2026",
 
-  title: "Discover Local Life Around Highland Park Apartment Homes",
+  title: "Must-Try Dining & Local Flavors in Sherman",
 
   description:
-    "Explore dining, shopping, recreation, education, and everyday conveniences surrounding Highland Park Apartment Homes in Sherman, Texas.",
+    "Discover local dining favorites, Texas-inspired flavors, and diverse restaurants around Sherman, Texas, near Highland Park Apartment Homes.",
 
   img: images.blog1,
 
   content: [
-    "Living at Highland Park Apartment Homes means enjoying a comfortable home in Sherman, Texas, with convenient access to dining, shopping, recreation, education, and everyday destinations.",
+    "Sherman offers a growing selection of local restaurants, cafés, and dining destinations featuring a variety of flavors and cuisines.",
 
-    "The surrounding Sherman area offers opportunities to explore local restaurants, boutique shopping, parks, community events, and outdoor recreation. Downtown Sherman and the Lake Texoma corridor provide additional destinations for weekends and everyday activities.",
+    "From casual neighborhood favorites to locally inspired Texas dishes, residents can discover new places to enjoy throughout the Sherman area.",
 
-    "Highland Park Apartment Homes offers comfortable one-bedroom and two-bedroom apartment homes, with layouts ranging from approximately 635 to 923 square feet.",
+    "Whether you're meeting friends for dinner, grabbing a quick lunch, or enjoying a relaxed weekend meal, there are convenient dining options nearby.",
 
-    "Community amenities include a sparkling swimming pool and sundeck, fenced bark park and green space, playground, resident laundry care center, picnic area, and BBQ grilling stations.",
-
-    "Apartment features include double-pane windows, upgraded kitchen cabinetry, wood-style flooring, ceiling fans, private balconies and patios, and a 24/7 online resident portal.",
-
-    "Whether you're enjoying local dining, exploring Sherman, visiting nearby parks, or relaxing at home, Highland Park Apartment Homes provides a convenient home base for experiencing life in Sherman and the surrounding North Texas area.",
+    "Highland Park Apartment Homes provides a convenient home base for discovering the local flavors and dining experiences around Sherman.",
   ],
 };
 
 // ======================================================
 // ARTICLE CARDS
 // ======================================================
-
 export const articles = [
   {
     id: 1,
@@ -1227,7 +1288,7 @@ export const articles = [
     title: "Must-Try Dining & Local Flavors in Sherman",
 
     description:
-      "From authentic Texas smoked barbecue to historic downtown cafes, discover local flavors and dining favorites just minutes from Highland Park Apartment Homes.",
+      "Discover local dining favorites, Texas-inspired flavors, and diverse restaurants around Sherman, Texas, near Highland Park Apartment Homes.",
 
     image: "/images/blog/1.webp",
   },
@@ -1266,5 +1327,59 @@ export const articles = [
       "Discover boutique shopping, weekend community festivals, lakeside recreation, and local experiences throughout Sherman and the Lake Texoma area.",
 
     image: "/images/blog/3.webp",
+  },
+
+  {
+    id: 4,
+    category: "Local Life",
+    categoryColor: "bg-[#E09428]/10 text-[#E09428]",
+    readTime: "4 min",
+    authorInitials: "HP",
+    authorBg: "bg-[#E09428]/10 text-[#E09428]",
+    authorName: "Highland Park Apartment Homes Team",
+    date: "Aug 5",
+
+    title: "Top Coffee Spots & Work Cafés Around Sherman",
+
+    description:
+      "Find inviting coffee shops and work-friendly cafés around Sherman for morning coffee, casual meetings, and productive afternoons.",
+
+    image: "/images/blog/4.webp",
+  },
+
+  {
+    id: 5,
+    category: "Apartment Living",
+    categoryColor: "bg-[#2a5a8f]/10 text-[#2a5a8f]",
+    readTime: "5 min",
+    authorInitials: "HP",
+    authorBg: "bg-[#2a5a8f]/10 text-[#2a5a8f]",
+    authorName: "Highland Park Apartment Homes Team",
+    date: "Aug 1",
+
+    title: "The Perks of Townhome-Style Living at Highland Park",
+
+    description:
+      "Discover the benefits of spacious townhome-style living, open layouts, private outdoor spaces, and comfortable apartment homes in Sherman.",
+
+    image: "/images/blog/5.webp",
+  },
+
+  {
+    id: 6,
+    category: "Outdoors",
+    categoryColor: "bg-[#1E3872]/10 text-[#1E3872]",
+    readTime: "5 min",
+    authorInitials: "HP",
+    authorBg: "bg-[#1E3872]/10 text-[#1E3872]",
+    authorName: "Highland Park Apartment Homes Team",
+    date: "Jul 28",
+
+    title: "Hagerman Wildlife Refuge & Eisenhower Park",
+
+    description:
+      "Explore wildlife, nature trails, outdoor recreation, and scenic destinations around Hagerman National Wildlife Refuge and Eisenhower State Park.",
+
+    image: "/images/blog/6.webp",
   },
 ];

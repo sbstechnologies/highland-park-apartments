@@ -62,9 +62,9 @@ const photoCategories = [
 
 const amenityCategories = [
   "Pool",
-  "Package Lockers",
+  "Laundry Room",
   "Dog Park",
-  "Covered Parking",
+  "Playground",
 ] as const;
 
 export default function UnitOverview({
@@ -111,7 +111,7 @@ export default function UnitOverview({
 
   const interiorPhotos = useMemo(
     () => ({
-      "Living Room": images.home19,
+      "Living Room": images.home16,
       Bedroom: images.home13,
       Kitchen: images.home14,
       Bathroom: images.home20,
@@ -122,9 +122,9 @@ export default function UnitOverview({
   const amenityPhotos = useMemo(
     () => ({
       Pool: images.home6,
-      "Package Lockers": images.home4,
+      "Laundry Room": images.home4,
       "Dog Park": images.home7,
-      "Covered Parking": images.home10,
+      Playground: images.home10,
     }),
     [images],
   );

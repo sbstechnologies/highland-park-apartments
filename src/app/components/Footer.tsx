@@ -110,22 +110,24 @@ export default function Footer() {
                 </div>
 
                 {/* HOURS */}
-                {siteConfig.hours && (
-                  <div className="flex items-start gap-3">
-                    <Clock
-                      size={17}
-                      className="text-[#76a1ff] shrink-0 mt-[3px]"
-                    />
+                <div className="flex items-start gap-2">
+                  <Clock
+                    size={17}
+                    className="text-[#76a1ff] shrink-0 mt-[2px]"
+                  />
 
-                    <span>{siteConfig.hours}</span>
-                  </div>
-                )}
+                  <div className="flex flex-col gap-0">
+                    <span className="font-[Plus_Jakarta_Sans] text-[13px] leading-[1.4] text-[rgba(245,242,237,0.55)]">
+                      {siteConfig.hours}
+                    </span>
 
-                {siteConfig.hours1 && (
-                  <div className="flex items-start gap-3">
-                    <span>{siteConfig.hours1}</span>
+                    {siteConfig.hours1 && (
+                      <span className="font-[Plus_Jakarta_Sans] text-[13px] leading-[1.4] text-[rgba(245,242,237,0.55)]">
+                        {siteConfig.hours1}
+                      </span>
+                    )}
                   </div>
-                )}
+                </div>
               </div>
 
               {/* SCHEDULE TOUR */}
@@ -263,15 +265,6 @@ export default function Footer() {
                     Availability
                   </a>
                 </li>
-
-                <li>
-                  <a
-                    href={`tel:${siteConfig.tel.replace("tel:", "")}`}
-                    className="hover:text-white transition"
-                  >
-                    Call Leasing Office
-                  </a>
-                </li>
               </ul>
             </div>
 
@@ -333,13 +326,13 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* COPYRIGHT */}
+          {/* COPYRIGHT 
           <div className="mt-14 border-t border-white/10 py-7 text-center">
             <p className="text-[12px] text-[#71809a] font-[Plus_Jakarta_Sans]">
               © {siteConfig.copyrightYear} {siteConfig.name}. All rights
               reserved.
             </p>
-          </div>
+          </div>*/}
         </div>
       </footer>
 

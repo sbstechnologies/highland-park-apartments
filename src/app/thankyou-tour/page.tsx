@@ -31,12 +31,11 @@ export default function Contact() {
             <span className="italic text-[#E39B2D]">Hear From You</span>
           </h1>
 
-          <p className="mt-8 max-w-2xl font-[Plus_Jakarta_Sans] text-base leading-relaxed text-[#bfc6d6] md:text-lg">
-            Have questions about our floor plans, amenities, or current lease
-            specials?
-            <br />
-            Our dedicated leasing team is here to help you find your perfect new
-            home in the heart of Irving at Highland Park Apartment Homes.
+          <p className="mt-8 max-w-3xl font-[Plus_Jakarta_Sans] text-base leading-relaxed text-[#bfc6d6] md:text-lg">
+            Have questions about our floor plans, amenities, or current look &
+            lease specials?
+            <br /> Our dedicated leasing team is here to help you find your
+            perfect new home in Sherman at Highland Park.
           </p>
         </div>
       </section>
@@ -198,7 +197,7 @@ export default function Contact() {
 
                 <div className="mt-6">
                   <p className="text-sm font-semibold text-gray-700 md:text-xl">
-                    We look forward to showing you around Western Station!
+                    We look forward to showing you around Highland Park !
                   </p>
 
                   <p className="mt-3 text-sm text-gray-500 md:text-base">

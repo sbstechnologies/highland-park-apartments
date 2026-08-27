@@ -826,7 +826,7 @@ export default function Floor() {
           <p className="mt-[28px] max-w-[1920px] font-[Plus_Jakarta_Sans] text-[18px] leading-[1.72] tracking-[-0.02em] text-[#b7bfd0] md:text-[20px]">
             Spacious one and two-bedroom layouts featuring upgraded kitchens,
             hardwood-style flooring, townhome-style living options, and private
-            outdoor spaces designed for easy living in Sherman
+            outdoor spaces designed for easy living in Sherman.
           </p>
 
           {/* Stats */}
