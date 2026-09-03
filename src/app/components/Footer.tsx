@@ -212,12 +212,6 @@ export default function Footer() {
                     Community & Events
                   </a>
                 </li>
-
-                <li>
-                  <a href="/contact" className="hover:text-white transition">
-                    Contact
-                  </a>
-                </li>
               </ul>
             </div>
 

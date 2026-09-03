@@ -110,7 +110,7 @@ export async function POST(req: Request) {
       "info@livenjoymgt.com",
     ];
     if (resident === "Future Resident") {
-      toRecipients.push("sbstechnololgies.in@gmail.com");
+      toRecipients.push("highland-park@rentbamboo.ai");
     }
 
     const ccRecipients: string[] = [];
@@ -408,8 +408,8 @@ export async function POST(req: Request) {
     </div>
 
 <div style="margin-top:8px;">
-  1900 Estrada Pkwy,<br />
-  Irving, TX 75061
+  1925 W Taylor St, <br />
+  Sherman, TX 75092
 </div>
 
 <div style="margin-top:6px;">
