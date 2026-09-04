@@ -1,8 +1,8 @@
-// app/api/contact/route.ts
-
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
+// This endpoint is intentionally a Route Handler: the public contact form
+// submits to it over HTTP and the handler sends the notification email.
 const escapeHtml = (text: string) =>
   text
     .replace(/&/g, "&amp;")
@@ -199,7 +199,7 @@ export async function POST(req: Request) {
     <table
       width="100%"
       cellpadding="12"
-      cellspacing="0"
+      cellaring="0"
       style="border-collapse:collapse;"
     >
 

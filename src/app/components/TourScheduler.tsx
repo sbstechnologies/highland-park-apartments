@@ -10,14 +10,14 @@ export default function TourScheduler({ open, onClose }: TourSchedulerProps) {
 
   return (
     <div
-      className="fixed inset-0 z-[9999] bg-black/70 md:flex md:items-center md:justify-center md:p-6"
+      className="fixed inset-0 z-9999 bg-black/70 md:flex md:items-center md:justify-center md:p-6"
       onClick={onClose}
     >
       <div
         onClick={(e) => e.stopPropagation()}
         className="
       relative
-      h-[100dvh]
+      h-dvh
       w-full
       bg-white
       md:h-[90vh]
@@ -54,6 +54,15 @@ export default function TourScheduler({ open, onClose }: TourSchedulerProps) {
         </button>
 
         {/* Scheduler */}
+        <iframe
+          src="https://charles.rentbamboo.com/embed/schedule?clientId=bamboo_j9idu9q9&color=1E3872&
+propertyId=14588d24-aa41-4dc9-85cd-21a3f91afe53"
+          width="100%"
+          height="720"
+          className="h-full w-full border-0"
+          loading="lazy"
+          title="Schedule a tour"
+        ></iframe>
       </div>
     </div>
   );
