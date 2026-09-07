@@ -3,6 +3,92 @@
 // IMAGE CONFIGURATION
 // ======================================================
 
+// ======================================================
+// LEASE SPECIAL
+// ======================================================
+
+// ======================================================
+// SITE CONFIG
+// ======================================================
+export const siteConfig = {
+  name: "Highland Park Apartment Homes",
+  shortName: "Highland Park",
+
+  copyrightYear: "2026",
+
+  address: "1925 W Taylor St, Sherman, TX 75092",
+
+  phone: "(903) 892-0188",
+  tel: "tel:+19038920188",
+
+  email: "hparkmanager@livenjoymgt.com",
+  propertyManagerEmail: "hparkmanager@livenjoymgt.com",
+
+  hours: "Mon–Fri: 8:30 AM – 5:30 PM",
+  hours1: "Sat: 10:00 AM – 4:00 PM",
+
+  website: "https://leasinghighlandparkapts.com",
+};
+
+export const lookLeaseSpecial = {
+  id: "look",
+  badge: "LOOK & LEASE SPECIAL",
+  text: "Huge Leasing Specials! 1-Bedrooms starting at $699. Move in by September 30th !",
+};
+
+export const floorPlansSpecial = {
+  id: "floor-plans-special",
+  badge: "LOOK & LEASE SPECIAL",
+  headline: "Special Promotion - Huge Specials",
+  badges: ["1BR from $699", "2BR from $999"],
+  phone: "(903) 892-0188",
+  tel: "tel:+19038920188",
+};
+
+export const lookLeaseOffer = {
+  id: "look-lease-offer",
+  tagline: "LIMITED TIME OFFER",
+  title: "Look & Lease Special",
+  subtext:
+    "Act fast to get our best rates on vacant-ready homes. 1BRs from $699, 2BRs from $999.",
+  highlight: " Must move in by September 30, 2026 !",
+  buttonText: "Call Now: (903) 892-0188",
+  buttonHref: "tel:+19038920188",
+};
+
+// ======================================================
+// PROMOTION
+// ======================================================
+
+export const PromoCardWidgetConfig = {
+  label: "LIMITED TIME",
+  title: "Special Promotion",
+
+  cards: [
+    {
+      title: "Huge Leasing Specials",
+      text: "Move-in ready ",
+      highlight: "1-bedrooms starting at $699 and 2-bedrooms from $999.",
+      suffix: "",
+      theme: "orange",
+    },
+    {
+      title: "Contact Us Today",
+      text: "Call or stop by our leasing office today.",
+      highlight: "Must move in by September 30, 2026.",
+      suffix: "",
+      theme: "blue",
+    },
+  ],
+
+  buttonText: "Apply Now",
+
+  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/HPA?a=1588",
+
+  phone: "Call us: (903) 892-0188",
+  phoneLink: "tel:+19038920188",
+};
+
 export const images = {
   // ======================================================
   // PROPERTY / HOME
@@ -256,29 +342,6 @@ export const images = {
 };
 
 // ======================================================
-// SITE CONFIG
-// ======================================================
-export const siteConfig = {
-  name: "Highland Park Apartment Homes",
-  shortName: "Highland Park",
-
-  copyrightYear: "2026",
-
-  address: "1925 W Taylor St, Sherman, TX 75092",
-
-  phone: "(903) 892-0188",
-  tel: "tel:+19038920188",
-
-  email: "hparkmanager@livenjoymgt.com",
-  propertyManagerEmail: "hparkmanager@livenjoymgt.com",
-
-  hours: "Mon–Fri: 8:30 AM – 5:30 PM",
-  hours1: "Sat: 10:00 AM – 4:00 PM",
-
-  website: "https://leasinghighlandparkapts.com",
-};
-
-// ======================================================
 // UNITS
 // ======================================================
 export const units = [
@@ -343,16 +406,6 @@ export const footerLocation = [
     distance: "2.8 mi",
   },
 ];
-
-// ======================================================
-// LEASE SPECIAL
-// ======================================================
-
-export const lookLeaseSpecial = {
-  id: "look",
-  badge: "LOOK. LEASE. SAVE.",
-  text: "1 & 2-Bedroom Specials – Huge Savings 1BR from $799 · $99 App & Admin Fee",
-};
 
 // ======================================================
 // HEADER
@@ -474,37 +527,6 @@ export const leasePortalConfig = {
   availabilityText: `Prices and availability subject to change · Application fee $50 · Admin fee $100 · Call ${siteConfig.phone}`,
 };
 
-// ======================================================
-// PROMOTION
-// ======================================================
-export const PromoCardWidgetConfig = {
-  label: "Limited Time",
-  title: "Special Promotion",
-
-  cards: [
-    {
-      title: "Look & Lease Special",
-      text: "Exclusive",
-      highlight: "$99 App & Admin Fee",
-      suffix: " on select 1 & 2-bedroom floor plans.",
-      theme: "orange",
-    },
-
-    {
-      title: "Contact Us Today",
-      text: "",
-      highlight: "1 & 2 Bedroom Apts Starting At  $799! ",
-      suffix: "  ",
-      highlight2: "Call us now ",
-      suffix2: " for offer details!",
-      theme: "blue",
-    },
-  ],
-
-  buttonText: "Apply Now",
-
-  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/HPA?a=1588",
-};
 // ======================================================
 // HOME PAGE
 // ======================================================

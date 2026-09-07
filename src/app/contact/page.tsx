@@ -3,7 +3,7 @@
 import PromoCardWidget from "@/app/components/PromoCardWidget";
 import HeaderOther from "@/app/components/HeaderOther";
 import Footer from "@/app/components/Footer";
-import { siteConfig } from "@/app/config/content";
+import { lookLeaseOffer, siteConfig } from "@/app/config/content";
 import FooterLegalBar from "@/app/components/FooterLegalBar";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
@@ -216,8 +216,12 @@ export default function Contact() {
       </section>
 
       <OfferCTA
-        phone={siteConfig.phone}
-        tel={`tel:${String(siteConfig.phone).replace(/[^\d+]/g, "")}`}
+        tagline={lookLeaseOffer.tagline}
+        title={lookLeaseOffer.title}
+        subtext={lookLeaseOffer.subtext}
+        highlight={lookLeaseOffer.highlight}
+        buttonText={lookLeaseOffer.buttonText}
+        buttonHref={lookLeaseOffer.buttonHref}
       />
 
       <Footer />
