@@ -280,19 +280,19 @@ export default function Footer() {
               </h4>
 
               {/* MAP */}
-              <div className="rounded-[24px] overflow-hidden h-[220px] border border-white/10">
+              <div className="relative h-[220px] overflow-hidden rounded-[24px] border border-white/10 flex items-center justify-center">
                 <iframe
                   src={`https://www.google.com/maps?q=${encodeURIComponent(
                     "Highland Park Apartment Homes, 1925 W Taylor St, Sherman, TX 75092",
                   )}&output=embed`}
                   width="100%"
-                  height="450"
+                  height="220"
                   style={{ border: 0 }}
                   loading="lazy"
                   allowFullScreen
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Highland Park Apartment Homes, Sherman Texas"
-                  className="w-full"
+                  className="h-full w-full"
                 />
               </div>
 

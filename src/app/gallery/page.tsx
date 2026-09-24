@@ -143,15 +143,13 @@ export default function Gallery() {
 
           <h1 className="font-[Instrument_Serif] text-[56px] md:text-[56px] leading-[0.98] tracking-[-0.04em] text-[#F5F2ED]">
             Life at <br />
-            <span className="text-[#E09428] italic">
-              Highland Park Apartment Homes
-            </span>
+            <span className="text-[#E09428] italic">Highland Park</span>
           </h1>
 
           <p className="mt-8 text-[#c7c3bd] max-w-xl text-sm md:text-base leading-relaxed">
             Explore our community — from beautifully appointed,
             rustic-yet-refined interiors to our luxury amenity spaces and
-            vibrant surrounding Fossil Creek neighborhood.
+            vibrant surrounding Sherman at Highland Park neighborhood.
           </p>
           <p className="mt-8 text-[#c7c3c0] max-w-xl text-sm md:text-base leading-relaxed">
             {gallery.length} PHOTOS ACROSS{" "}

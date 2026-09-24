@@ -147,41 +147,23 @@ export default function Home() {
 
   const getAmenityDescription = (title = "") => {
     const descriptions: Record<string, string> = {
-      "Fitness Center":
-        "Stay active close to home with a convenient community fitness center designed to support your everyday wellness routine.",
+      "Sparkling Swimming Pool & Sundeck":
+        "Cool off, relax, and enjoy sunny days at the sparkling community swimming pool and sundeck, designed for refreshing outdoor leisure close to home.",
 
-      "Resident Clubhouse & Lounge":
-        "Relax, gather, and connect with neighbors in the welcoming resident clubhouse and lounge at Highland Park Apartment Homes.",
+      "Fenced Bark Park & Green Space":
+        "Give your four-legged companions room to play, exercise, and enjoy the outdoors in the fenced bark park and surrounding green space.",
 
-      "Community Swimming Pool":
-        "Cool off and unwind at the community swimming pool, a relaxing outdoor space for sunny days and time spent close to home.",
+      "On-Site Playground & Play Structure":
+        "Enjoy family-friendly outdoor recreation with an on-site playground and play structure designed to provide an inviting space for children.",
 
-      "BBQ & Picnic Area":
-        "Enjoy outdoor meals and gatherings with convenient BBQ and picnic areas designed for relaxing with family and friends.",
+      "Townhome-Style Living & Open Layouts":
+        "Experience comfortable townhome-style living with open layouts designed to provide spacious interiors and a welcoming place to call home.",
 
-      "Pet Park":
-        "Give your four-legged companions room to play and enjoy the outdoors in the community's pet-friendly park area.",
+      "On-Site Resident Laundry Care Center":
+        "Enjoy everyday convenience with an on-site resident laundry care center, making laundry easier and more accessible within the community.",
 
-      "Package Locker Service":
-        "Make deliveries more convenient with package locker service, providing residents with an easy way to retrieve packages.",
-
-      "Sports Court":
-        "Stay active outdoors with a community sports court offering residents another convenient way to enjoy recreation close to home.",
-
-      Playground:
-        "Enjoy outdoor recreation with a community playground designed to provide an inviting space for families and children.",
-
-      "Tennis Court":
-        "Enjoy an active lifestyle with a community tennis court available for recreation and outdoor play.",
-
-      "Volleyball Court":
-        "Get outside and enjoy a friendly game with access to a community volleyball court.",
-
-      "Laundry Facilities":
-        "Enjoy added everyday convenience with on-site laundry facilities available within the Highland Park Apartment Homes community.",
-
-      "Controlled Access":
-        "Enjoy added peace of mind with controlled community access designed to provide residents with a comfortable living environment.",
+      "Picnic Area & BBQ Grilling Stations":
+        "Gather with family, friends, and neighbors at the picnic area and BBQ grilling stations, perfect for outdoor meals and community gatherings.",
     };
 
     return descriptions[title] ?? "";

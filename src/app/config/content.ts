@@ -729,7 +729,7 @@ export const homePageConfig = {
       alt: images.blog_alt1,
       category: "Local Eats",
       time: "4 min",
-      author: "Highland Park Apartment Homes Team",
+      author: "Highland Park Team",
       date: "Aug 20",
       title: "Must-Try Dining & Local Flavors in Sherman",
       desc: "Discover local dining favorites, Texas-inspired flavors, and diverse restaurants around Sherman, Texas, near Highland Park Apartment Homes.",
@@ -1144,8 +1144,8 @@ export const posts: Post[] = [
     category: "Outdoors",
     readTime: "5 min",
     initials: "HP",
-    author: "Highland Park Apartment Homes Team",
-    date: "Aug 15, 2026",
+    author: "Highland Park Team",
+    date: "",
 
     title: "Exploring Fairview Park & Sherman Nature Trails",
 
@@ -1169,8 +1169,8 @@ export const posts: Post[] = [
     category: "Local Life",
     readTime: "4 min",
     initials: "HP",
-    author: "Highland Park Apartment Homes Team",
-    date: "Aug 10, 2026",
+    author: "Highland Park Team",
+    date: "",
 
     title: "Downtown Sherman Square to Lake Texoma",
 
@@ -1194,8 +1194,8 @@ export const posts: Post[] = [
     category: "Local Life",
     readTime: "4 min",
     initials: "HP",
-    author: "Highland Park Apartment Homes Team",
-    date: "Aug 5, 2026",
+    author: "Highland Park Team",
+    date: "",
 
     title: "Top Coffee Spots & Work Cafés Around Sherman",
 
@@ -1219,8 +1219,8 @@ export const posts: Post[] = [
     category: "Apartment Living",
     readTime: "5 min",
     initials: "HP",
-    author: "Highland Park Apartment Homes Team",
-    date: "Aug 1, 2026",
+    author: "Highland Park Team",
+    date: "",
 
     title: "The Perks of Townhome-Style Living at Highland Park",
 
@@ -1244,8 +1244,8 @@ export const posts: Post[] = [
     category: "Outdoors",
     readTime: "5 min",
     initials: "HP",
-    author: "Highland Park Apartment Homes Team",
-    date: "Jul 28, 2026",
+    author: "Highland Park Team",
+    date: "",
 
     title: "Hagerman Wildlife Refuge & Eisenhower Park",
 
@@ -1272,8 +1272,8 @@ export const featuredPost: Post = {
   category: "Local Eats",
   readTime: "4 min",
   initials: "HP",
-  author: "Highland Park Apartment Homes Team",
-  date: "Aug 20, 2026",
+  author: "Highland Park Team",
+  date: "",
 
   title: "Must-Try Dining & Local Flavors in Sherman",
 
@@ -1304,8 +1304,8 @@ export const articles = [
     readTime: "4 min",
     authorInitials: "HP",
     authorBg: "bg-[#E09428]/10 text-[#E09428]",
-    authorName: "Highland Park Apartment Homes Team",
-    date: "Aug 20",
+    authorName: "Highland Park Team",
+    date: "",
 
     title: "Must-Try Dining & Local Flavors in Sherman",
 
@@ -1322,8 +1322,8 @@ export const articles = [
     readTime: "5 min",
     authorInitials: "HP",
     authorBg: "bg-[#2a5a8f]/10 text-[#2a5a8f]",
-    authorName: "Highland Park Apartment Homes Team",
-    date: "Aug 15",
+    authorName: "Highland Park Team",
+    date: "",
 
     title: "Exploring Fairview Park & Sherman Nature Trails",
 
@@ -1340,8 +1340,8 @@ export const articles = [
     readTime: "4 min",
     authorInitials: "HP",
     authorBg: "bg-[#1E3872]/10 text-[#1E3872]",
-    authorName: "Highland Park Apartment Homes Team",
-    date: "Aug 10",
+    authorName: "Highland Park Team",
+    date: "",
 
     title: "Downtown Sherman Square to Lake Texoma",
 
@@ -1358,8 +1358,8 @@ export const articles = [
     readTime: "4 min",
     authorInitials: "HP",
     authorBg: "bg-[#E09428]/10 text-[#E09428]",
-    authorName: "Highland Park Apartment Homes Team",
-    date: "Aug 5",
+    authorName: "Highland Park Team",
+    date: "",
 
     title: "Top Coffee Spots & Work Cafés Around Sherman",
 
@@ -1376,8 +1376,8 @@ export const articles = [
     readTime: "5 min",
     authorInitials: "HP",
     authorBg: "bg-[#2a5a8f]/10 text-[#2a5a8f]",
-    authorName: "Highland Park Apartment Homes Team",
-    date: "Aug 1",
+    authorName: "Highland Park Team",
+    date: "",
 
     title: "The Perks of Townhome-Style Living at Highland Park",
 
@@ -1394,8 +1394,8 @@ export const articles = [
     readTime: "5 min",
     authorInitials: "HP",
     authorBg: "bg-[#1E3872]/10 text-[#1E3872]",
-    authorName: "Highland Park Apartment Homes Team",
-    date: "Jul 28",
+    authorName: "Highland Park Team",
+    date: "",
 
     title: "Hagerman Wildlife Refuge & Eisenhower Park",
 
