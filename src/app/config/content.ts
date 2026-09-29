@@ -1067,7 +1067,6 @@ export const gallery: GalleryItem[] = [
     alt: "Living room with hardwood-style flooring at Highland Park Apartment Homes in Sherman, Texas",
     category: "Interiors",
   },
-
   // ======================================================
   // AMENITIES
   // ======================================================
