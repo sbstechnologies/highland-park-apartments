@@ -33,7 +33,7 @@ export const siteConfig = {
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "Huge Leasing Specials! 1-Bedrooms starting at $699. Move in by September 30th !",
+  text: "Huge Leasing Specials! 1-Bedrooms starting at $699. Move in by September 30th!",
 };
 
 export const floorPlansSpecial = {
@@ -51,7 +51,7 @@ export const lookLeaseOffer = {
   title: "Look & Lease Special",
   subtext:
     "Act fast to get our best rates on vacant-ready homes. 1BRs from $699, 2BRs from $999.",
-  highlight: " Must move in by September 30, 2026 !",
+  highlight: " Must move in by September 30, 2026!",
   buttonText: "Call Now: (903) 892-0188",
   buttonHref: "tel:+19038920188",
 };
@@ -315,12 +315,16 @@ export const images = {
   // ======================================================
 
   floor1: "/images/plan/1/1.webp",
-  floor2: "/images/plan/2/1.webp",
+  floor2: "/images/plan/1/2.webp",
+  floor3: "/images/plan/2/1.webp",
 
   floor_alt1:
     "One bedroom apartment floor plan at Highland Park Apartment Homes",
 
   floor_alt2:
+    "One bedroom apartment floor plan at Highland Park Apartment Homes",
+
+  floor_alt3:
     "Two bedroom apartment floor plan at Highland Park Apartment Homes",
 
   // ======================================================
@@ -558,7 +562,7 @@ export const homePageConfig = {
 
   amenities: [
     {
-      title: "Sparkling Swimming Pool & Sundeck",
+      title: "Sparkling Swimming Pool",
       tag: "OUTDOOR LEISURE",
       img: images.amenities1,
       alt: images.amenities_alt1,
@@ -572,21 +576,21 @@ export const homePageConfig = {
     },
 
     {
-      title: "On-Site Playground & Play Structure",
+      title: "On-Site Playground",
       tag: "FAMILY & COMMUNITY",
       img: images.amenities3,
       alt: images.amenities_alt3,
     },
 
     {
-      title: "Townhome-Style Living & Open Layouts",
+      title: "Townhome-Style Living",
       tag: "INTERIOR LIVING",
       img: images.amenities4,
       alt: images.amenities_alt4,
     },
 
     {
-      title: "On-Site Resident Laundry Care Center",
+      title: "On-Site Resident Laundry Center",
       tag: "RESIDENT CONVENIENCE",
       img: images.amenities5,
       alt: images.amenities_alt5,
@@ -770,7 +774,7 @@ export const plans = {
     title: "1x1 - U · 1 Bedroom · 1 Bath",
     price: "$799/mo",
     area: "635 sq ft",
-    img: images.floor1,
+    img: images.floor2,
     bed: "1 Bedroom",
     bath: "1 Bath",
   },
@@ -779,24 +783,24 @@ export const plans = {
     title: "2x2 - R · 2 Bedrooms · 2 Baths",
     price: "$999/mo",
     area: "923 sq ft",
-    img: images.floor2,
+    img: images.floor3,
     bed: "2 Bedrooms",
     bath: "2 Baths",
   },
 };
 
 export const interiorPhotos = {
-  "Living Room": images.home16,
-  Bedroom: images.home13,
-  Kitchen: images.home14,
-  Bathroom: images.home20,
+  "Living Room": images.home18,
+  Bedroom: images.home15,
+  Kitchen: images.home16,
+  Bathroom: images.home17,
 } as const;
 
 export const amenityPhotos = {
-  Pool: images.home6,
-  "Laundry Room": images.home4,
-  "Dog Park": images.home7,
-  Playground: images.home10,
+  Pool: images.home20,
+  "Laundry Room": images.home19,
+  "Dog Park": images.home4,
+  Playground: images.home22,
 } as const;
 
 export const defaultPreviewImg = images.home14;
@@ -879,7 +883,7 @@ export const floorPlans: FloorPlan[] = [
       "High-Speed Internet",
       "+2 more",
     ],
-    images: [images.floor1],
+    images: [images.floor2],
     interiorImages: [images.home16, images.home17, images.home18],
     tour: "https://my.matterport.com/show/?model=yPm9Lu1t2xe&play=1",
   },
@@ -903,7 +907,7 @@ export const floorPlans: FloorPlan[] = [
       "Dishwasher & Disposal",
       "+2 more",
     ],
-    images: [images.floor2],
+    images: [images.floor3],
     interiorImages: [images.home19, images.home20, images.home21],
     tour: "https://my.matterport.com/show/?model=SGeytaueLt3&play=1",
   },

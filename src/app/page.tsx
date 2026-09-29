@@ -147,20 +147,20 @@ export default function Home() {
 
   const getAmenityDescription = (title = "") => {
     const descriptions: Record<string, string> = {
-      "Sparkling Swimming Pool & Sundeck":
-        "Cool off, relax, and enjoy sunny days at the sparkling community swimming pool and sundeck, designed for refreshing outdoor leisure close to home.",
+      "Sparkling Swimming Pool":
+        "Cool off, relax, and enjoy sunny days at the sparkling community swimming pool, designed for refreshing outdoor leisure close to home.",
 
       "Fenced Bark Park & Green Space":
         "Give your four-legged companions room to play, exercise, and enjoy the outdoors in the fenced bark park and surrounding green space.",
 
-      "On-Site Playground & Play Structure":
-        "Enjoy family-friendly outdoor recreation with an on-site playground and play structure designed to provide an inviting space for children.",
+      "On-Site Playground":
+        "Enjoy family-friendly outdoor recreation with an on-site playground designed to provide an inviting space for children to play and have fun.",
 
-      "Townhome-Style Living & Open Layouts":
-        "Experience comfortable townhome-style living with open layouts designed to provide spacious interiors and a welcoming place to call home.",
+      "Townhome-Style Living":
+        "Experience comfortable townhome-style living with thoughtfully designed spaces that provide a welcoming and comfortable place to call home.",
 
-      "On-Site Resident Laundry Care Center":
-        "Enjoy everyday convenience with an on-site resident laundry care center, making laundry easier and more accessible within the community.",
+      "On-Site Resident Laundry Center":
+        "Enjoy everyday convenience with an on-site resident laundry center, making laundry easier and more accessible within the community.",
 
       "Picnic Area & BBQ Grilling Stations":
         "Gather with family, friends, and neighbors at the picnic area and BBQ grilling stations, perfect for outdoor meals and community gatherings.",

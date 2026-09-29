@@ -116,11 +116,7 @@ export async function POST(req: Request) {
     const ccRecipients: string[] = [];
 
     if (resident === "Current Resident") {
-      ccRecipients.push(
-        "daniel@livenjoymgt.com",
-        "admin@livenjoymgt.com",
-        "officeadmin@livenjoymgt.com",
-      );
+      ccRecipients.push("daniel@livenjoymgt.com", "admin@livenjoymgt.com");
     }
 
     // Verify SMTP connection
