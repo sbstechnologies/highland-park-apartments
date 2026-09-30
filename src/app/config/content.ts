@@ -23,6 +23,7 @@ export const siteConfig = {
 
   email: "hparkmanager@livenjoymgt.com",
   propertyManagerEmail: "hparkmanager@livenjoymgt.com",
+  
 
   hours: "Mon–Fri: 8:30 AM – 5:30 PM",
   hours1: "Sat: 10:00 AM – 4:00 PM",
