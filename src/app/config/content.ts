@@ -23,7 +23,6 @@ export const siteConfig = {
 
   email: "hparkmanager@livenjoymgt.com",
   propertyManagerEmail: "hparkmanager@livenjoymgt.com",
-  
 
   hours: "Mon–Fri: 8:30 AM – 5:30 PM",
   hours1: "Sat: 10:00 AM – 4:00 PM",
@@ -34,7 +33,7 @@ export const siteConfig = {
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "Huge Leasing Specials! 1-Bedrooms starting at $699. Move in by September 30th!",
+  text: "Huge Leasing Specials! 1-Bedrooms starting at $699. Move in by October 31, 2026!",
 };
 
 export const floorPlansSpecial = {
@@ -52,7 +51,7 @@ export const lookLeaseOffer = {
   title: "Look & Lease Special",
   subtext:
     "Act fast to get our best rates on vacant-ready homes. 1BRs from $699, 2BRs from $999.",
-  highlight: " Must move in by September 30, 2026!",
+  highlight: " Must move in by October 31, 2026!",
   buttonText: "Call Now: (903) 892-0188",
   buttonHref: "tel:+19038920188",
 };
@@ -76,7 +75,7 @@ export const PromoCardWidgetConfig = {
     {
       title: "Contact Us Today",
       text: "Call or stop by our leasing office today.",
-      highlight: "Must move in by September 30, 2026.",
+      highlight: "Must move in by October 31, 2026.",
       suffix: "",
       theme: "blue",
     },
